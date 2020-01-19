@@ -1359,7 +1359,7 @@ hr {
 }
 
 
-@media (max-width: 480px)
+@media screen  and (max-width: 420px)
 
 {
 .header
@@ -1374,8 +1374,7 @@ hr {
 	text-align: center;
 	margin-top: 15px;
 }
-.header .logo img
-,
+.header .logo img,
 .header1 .logo img
 {
 	width: 30%;
@@ -1405,6 +1404,23 @@ hr {
 {
 	width: 80%;
 }
+
+.home .btn
+{
+	width: 50%;
+}
+.home .btn-start
+{
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+
+.home .btn-learn
+{
+	width: 50%;
+}
+
 
 .about
 {
@@ -1535,12 +1551,12 @@ hr {
 
 .main-blog
 {
-	height: 350px;
+	height: 400px;
 	text-align: center;
 }
 .main-blog-content
 {
-	top: 210px;
+	top: 250px;
 	width: 100%;
 }
 
